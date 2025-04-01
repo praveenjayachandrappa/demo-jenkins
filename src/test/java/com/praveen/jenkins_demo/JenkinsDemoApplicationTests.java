@@ -8,7 +8,7 @@ class JenkinsDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("Test file build started ...");
+		System.out.println("Test file build started ");
 		System.out.println("condasdlkfasdlfajdflk667777@@@@@@...");
 	}
 
