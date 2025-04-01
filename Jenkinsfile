@@ -4,10 +4,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/praveenjayachandrappa/demo-jenkins.git'
+                git branch: 'main', url: 'https://github.com/praveenjayachandrappa/demo-jenkins.git'
             }
-        }
-
+            
         stage('Build') {
             steps {
                 echo 'Building the project...'
